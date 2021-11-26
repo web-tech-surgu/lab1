@@ -1,3 +1,7 @@
+<form>
+  <input name="login" type=text>
+  <input name="age" type=text>
+  </form>
 <?
 $login = "не определен";
 $age = "не определен";
