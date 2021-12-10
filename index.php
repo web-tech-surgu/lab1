@@ -1,4 +1,4 @@
-<form method="post" action="/12.php"> 	
+<form method="post"> 	
 	<p>
 		<input type="submit" value="Send"></p> 
 <p>
@@ -12,5 +12,5 @@
 
 	</p> 
 	<?php
-	echo $_SERVER['HTTP_USER_AGENT'];
+
 	?>
