@@ -1,14 +1,12 @@
-<form action="select1.php" method="post"> 	
+<form method="post"> 	
 	<p>
-		<select size="3" multiple name="hero[]"> 						 			
-			<option disabled>Выберите героя</option>
+		<input type="submit" value="Send">
+		<select name="hero"> 						 			
+			<option >Выберите героя</option>
 			<option value="Чебурашка">Чебурашка</option>
-			<option selected value="Крокодил Гена">Крокодил Гена</option>
+			<option value="Крокодил Гена">Крокодил Гена</option>
 			<option value="Шапокляк">Шапокляк</option>			
 		</select>
-	</p> 
-	<p>
-		<input type="submit" value="Отправить">
 	</p> 
 </form>
 <?php
