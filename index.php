@@ -10,3 +10,12 @@
  <option value="Алжир">Алжир</option>
 </select>
 	</p> 
+
+
+<select class="form-control" name="year">
+<?php 
+	for($i = 1900; $i <= date('Y'); $i++): 
+?>
+<option value="<?=$i?>"><?=$i?></option>
+<?php endfor; ?>
+</select>
