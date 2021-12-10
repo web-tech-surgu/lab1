@@ -1,3 +1,4 @@
+<body>
 <form action="select1.php" method="post"> 	
 	<p>
 		<select size="3" multiple name="hero[]"> 
@@ -13,5 +14,6 @@
 </form>
 <?php
 echo '<pre>';
-print_r($_POST);
+print_r($_POST['hero']);
 ?>
+</body>
