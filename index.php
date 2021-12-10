@@ -1,4 +1,4 @@
-<form method="post"> 	
+<form method="post" action="12.php"> 	
 	<p>
 		<input type="submit" value="Send"></p> 
 <p>
@@ -11,8 +11,3 @@
 </select>
 
 	</p> 
-</form>
-<?php
-
-print_r($_POST);
-?>
