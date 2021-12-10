@@ -1,3 +1,7 @@
+	<?php
+echo helloworld;
+print_r($_POST);
+	?>
 <form method="post"> 	
 	<p>
 		<input type="submit" value="Send"></p> 
@@ -11,6 +15,4 @@
 </select>
 
 	</p> 
-	<?php
 
-	?>
