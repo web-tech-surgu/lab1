@@ -1,7 +1,7 @@
 <body>
 <form action="select1.php" method="post"> 	
 	<p>
-<select class="form-control" name="country">
+<select class="form-control" name="country[]">
  <option value="Австралия">Австралия</option>
  <option value="Австрия">Австрия</option>
  <option value="Азербайджан">Азербайджан</option>
