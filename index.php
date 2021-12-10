@@ -2,7 +2,7 @@
 	<p>
 		<input type="submit" value="Send"></p> 
 <p>
-<select class="form-control" name="country">
+<select class="form-control" name="country" multiple>
  <option value="Австралия">Австралия</option>
  <option value="Австрия">Австрия</option>
  <option value="Азербайджан">Азербайджан</option>
