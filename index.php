@@ -1,8 +1,4 @@
-	<?php
-echo helloworld;
-print_r($_POST);
-	?>
-<form method="post"> 	
+<form method="post" action="qqq.php> 	
 	<p>
 		<input type="submit" value="Send"></p> 
 <p>
@@ -13,6 +9,4 @@ print_r($_POST);
  <option value="Албания">Албания</option>
  <option value="Алжир">Алжир</option>
 </select>
-
 	</p> 
-
