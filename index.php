@@ -1,4 +1,4 @@
-<form method="post" action="qqq.php> 	
+<form method="post" action="qqq.php"> 	
 	<p>
 		<input type="submit" value="Send"></p> 
 <p>
